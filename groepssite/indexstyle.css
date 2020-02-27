@@ -1,23 +1,239 @@
 
+:root {
+    --main-picture-size: 196px;
+    --names-under-pic: 178px;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 #mainBar {
-    width: 1920px;
-    height: 181px;
+    width: 100vw;
+    height: 10%;
     background-color: #B27563;
     position: relative;
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
     font-family: Candara;
     color: #FFFFFF;
-    margin-top: -101px;
-    margin-left: -8px;
+}
+#mainbar h1{
+    margin-top: 2%;
 }
 
-#sidebar {
-    width: 321px;
+.wrapper{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    display: block;
+    width: 200px;
+    height: 100%;
+    background: #E19770;
+    padding: 30px 0;
+}
+
+.wrapper .sidebar h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper .sidebar ul li a{
+    color: #F6D2BF;
+    margin-left: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+    background: #F0BAA0;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+.teambar{
+    padding: 10px;
+    background-color: grey;
+    height: 263px;
+    width: 83%;
+    margin-left: 16%;
+    margin-top: 2%;
+    background-color: #F0BAA0;
+    overflow: hidden;
+    float: left;
+}
+.teambar #individual{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.teambar #individual #cedricpic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/cedric.jpg);
+    background-size: var(--main-picture-size);
+    float:left;
+}
+.teambar #individual #cedricpic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.teambar #individual #baspic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/bas.jpg);
+    background-size: var(--main-picture-size);
+    float:left;
+    margin-left: 1%;
+}
+
+.teambar #individual #baspic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.teambar #individual #ronanpic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/ronan.jpg);
+    background-size: var(--main-picture-size);
+    float:left;
+    margin-left: 1%;
+}
+
+.teambar #individual #ronanpic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.teambar #individual #youripic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/youri.png);
+    background-size: var(--main-picture-size);
+    float:left;
+    margin-left: 1%;
+}
+
+.teambar #individual #youripic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.teambar #individual #nikkipic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/nikki.jpg);
+    background-size: var(--main-picture-size);
+    float:left;
+    margin-left: 1%;
+}
+
+.teambar #individual #nikkipic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.teambar #individual #robertpic{
+    background-color: #F0BAA0;
+    height: var(--main-picture-size);
+    width: var(--main-picture-size);
+    background-image: url(groepfotos/robert.jpg);
+    background-size: var(--main-picture-size);
+    float:right;
+    margin-right: -5%;
+}
+
+.teambar #individual #robertpic h2{
+    text-align: center;
+    margin-top: var(--names-under-pic);
+}
+
+.wrapper2 .groepsafbeelding{
+    background-image: url(groepfotos/groepsafbeelding.jpg);
+    width: 600px;
+    height: 332.52px;
+    background-color: black;
+    padding: 1%;
+    margin-top: 2%;
+    background-size: 600px;
+    float: right;
+    margin-right: 1%;
+    border: 5px solid #B27563;
+}
+
+.wrapper2 .text_over_ons{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 240px;
+    float: left;
+}
+
+#individual #cedricpic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+#individual #baspic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+#individual #ronanpic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+#individual #youripic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+#individual #nikkipic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+#individual #robertpic:hover 
+{
+    filter: contrast(0.9);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+
+
+/* #sidebar {
+    width: 230px;
     height: 1194px;
     background-color: #E19770;
-    margin-left: -8px;
-    margin-top: -16px;
+    margin-left: -1%;
+    margin-top: -4.5%;
 }
 #sidebar a {
     text-decoration: none;
@@ -186,11 +402,11 @@
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-}
+} */
 
 
-
+/*
 html {
     max-width: 100%;
     overflow-x: hidden;
-}
+}  */
