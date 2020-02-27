@@ -20,6 +20,7 @@
     font-size: 50px;
     font-family: Candara;
     color: #FFFFFF;
+	z-index: 2;
 }
 #mainbar h1{
     margin-top: 2%;
@@ -29,6 +30,11 @@
     display: flex;
     position: relative;
     overflow: hidden;
+}
+
+.sidebar {
+	position: sticky;
+	top: 0;
 }
 
 .wrapper .sidebar{
@@ -41,6 +47,7 @@
 }
 
 .wrapper .sidebar h2{
+	margin-top: 40px;
     color: #fff;
     text-align: center;
     margin-bottom: 30px;
@@ -50,6 +57,9 @@
     padding: 10px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(225,225,225,0.05);
+	background: linear-gradient(to right, #F0BAA0 50%, #E19770 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
 }
 
 .wrapper .sidebar ul li a{
@@ -58,7 +68,8 @@
 }
 
 .wrapper .sidebar ul li:hover{
-    background: #F0BAA0;
+	background-position: left bottom;
+	transition: all .5s ease-out;
 }
 
 .wrapper .sidebar ul li:hover a{
