@@ -37,7 +37,7 @@
     align-content: center;
     margin-left: 1000px;
     margin-top: -700px;
-    background-image: url(indexresource/groepsfoto.png);
+    background-image: url(indexresource/groepsfoto.jpg);
     background-size: 768px auto;
     border:5px solid #B27563;
 }
@@ -48,6 +48,7 @@
     background-color: #F0BAA0;
     margin-left: 339px;
     margin-top: -900px;
+    border: 2px solid gray;
 }
 
 #individual #cedricpic {
@@ -55,7 +56,7 @@
     height:250px;
     background-color: blue;
     margin-left: 359px;
-    margin-top: -287px;
+    margin-top: -300px;
     background-image: url(groepfotos/cedric.jpg);
     background-size: 250px auto;
 }
@@ -86,7 +87,7 @@
     background-color: green;
     margin-left: 1143px;
     margin-top: -250px;
-    background-image: url(groepfotos/youri.png);
+    background-image: url(groepfotos/youri.jpg);
     background-size: 250px auto;
 }
 
@@ -110,6 +111,43 @@
     background-size: 250px auto;
 }
 
+#indi-text {
+    margin-top: -8%;
+    margin-left: 20%;
+}
+
+#indi-text #cedricname {
+    float: left;
+    padding: 10% 2%;
+}
+
+#indi-text #basname {
+    float: left;
+    padding: 10% 2%;
+    padding-left: 7%;
+}
+
+#indi-text #ronanname {
+    float: left;
+    padding: 10% 2%;
+    padding-left: 5%;
+}
+#indi-text #youriname {
+    float: left;
+    padding: 10% 2%;
+    padding-left: 3%;
+}
+#indi-text #nikkiname {
+    float: left;
+    padding: 10% 2%;
+    padding-left: 3%;
+}
+
+#indi-text #robertname {
+    float: left;
+    padding: 10% 2%;
+    padding-left: 2.25%;
+}
 
 
 
