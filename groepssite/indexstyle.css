@@ -151,36 +151,41 @@
 
 
 
-
 #individual #cedricpic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 #individual #baspic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 #individual #ronanpic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 #individual #youripic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 #individual #nikkipic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 #individual #robertpic:hover 
 {
-    filter: grayscale(1);
+    filter: contrast(0.9);
     transition: ease 0.5s;
+    transform: scale(1.1);
 }
 
 
