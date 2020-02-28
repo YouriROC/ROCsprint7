@@ -206,36 +206,42 @@
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 #individual #baspic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 #individual #ronanpic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 #individual #youripic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 #individual #nikkipic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 #individual #robertpic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
+    border:  #B27563 2px solid;
 }
 
 html {
