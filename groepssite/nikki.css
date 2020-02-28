@@ -39,10 +39,22 @@ html {
     padding: 10px 20px;
     border-right: 1px solid rgba(0,0,0,0.05);
     border-left: 1px solid rgba(225,225,225,0.05);
+    background: linear-gradient(to right, #F0BAA0 50%, #E19770 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
 }
 
 .main_nav ul li a{
-    color: white;
+    color: #F6D2BF;
+}
+
+.main_nav ul li:hover{
+	background-position: left bottom;
+	transition: all .5s ease-out;
+}
+
+.main_nav ul li:hover a{
+    color: #fff;
 }
 
 .wrapper{

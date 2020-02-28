@@ -79,7 +79,7 @@
 .teambar{
     padding: 10px;
     background-color: grey;
-    height: 263px;
+    height: 273px;
     width: 83%;
     margin-left: 16%;
     margin-top: 2%;
@@ -170,7 +170,7 @@
     background-color: #F0BAA0;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
-    background-image: url(groepfotos/robert.jpg);
+    background-image: url(groepfotos/robert2.jpg);
     background-size: var(--main-picture-size);
     float:right;
     margin-right: -5%;
