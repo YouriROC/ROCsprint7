@@ -26,6 +26,7 @@ html {
     margin-top: 2%;
 }
 
+/*navigatiebar aan de bovenkant komt hieronder te staan*/
 .main_nav{
     overflow: hidden;
     display: block;
@@ -63,6 +64,7 @@ html {
     overflow: hidden;
 }
 
+/*vanaf hier komt alles over de sidebar*/
 .sidebar {
 	position: sticky;
 	top: 0;
@@ -85,9 +87,75 @@ html {
     position: fixed;
     z-index: 2;
 }
+.wrapper .sidebar h2{
+	margin-top: 40px;
+    color: #E19770;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.wrapper .sidebar ul{
+    margin-top: 170%;
+}
+
+.wrapper .sidebar ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+	background: linear-gradient(to right, #E19770 50%, #F0BAA0 50%);
+	background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+}
+
+.wrapper .sidebar ul li a{
+    color: #F6D2BF;
+    margin-left: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+	background-position: left bottom;
+	transition: all .5s ease-out;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+
+/*hier komt de text te staan over mij :)*/
 .text_overmij{
     margin-left: 220px;
     margin-top: 1.5%;
     width: 80%
+}
+
+/*Hier gaat alles komen te staan over de kennistoetsen*/
+.wrapper .kennistoets_antw{
+    display: block;
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    width: 70%;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.wrapper .code{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.wrapper .uitkomst{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 10px;
 }
