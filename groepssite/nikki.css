@@ -162,3 +162,12 @@ html {
     margin-top: 50px;
     margin-left: 10px;
 }
+
+.wrapper .kennistoets_antw h3{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.wrapper .kennistoets_antw p{
+    margin: 2%;
+}
