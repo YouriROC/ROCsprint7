@@ -51,7 +51,9 @@ html {
 
 .main_nav ul li:hover{
 	background-position: left bottom;
-	transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    border-right: 1px solid rgba(0,0,0,0.05);
+    border-left: 1px solid rgba(225,225,225,0.05);
 }
 
 .main_nav ul li:hover a{
@@ -135,10 +137,11 @@ html {
     display: block;
     background-color: white;
     border: 1px solid lightgray;
-    height: 475px;
+    height: 90%;
     width: 70%;
     margin-left: 260px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .wrapper .code{
