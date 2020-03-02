@@ -10,6 +10,6 @@ var vraag9 = "Wat doet de echo-opdracht?";
 var vraag10 = "Waar kunnen we een PHP-script embedden in een html-script?";
 
 function kennisToets1() {
-    document.getElementsById("kip").innerHTML +=
+    document.getElementsById("kip").innerHTML =
     "<h2>Wat is een Call to undefined function-error?</h2>";
 }

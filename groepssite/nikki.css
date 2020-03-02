@@ -109,7 +109,6 @@ html {
 }
 
 .wrapper .sidebar ul li a{
-    color: #F6D2BF;
     margin-left: 15px;
 }
 
@@ -133,15 +132,23 @@ html {
 /*Hier gaat alles komen te staan over de kennistoetsen*/
 .wrapper .kennistoets_antw{
     display: block;
-    background-color: white;
-    border: 1px solid lightgray;
     height: 90%;
     width: 70%;
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-left: 80px;
+    margin-top: 25px;
     margin-bottom: 20px;
+    text-align: left;
+}
+.wrapper .kennistoets_antw h3{
+    margin-left: 2%;
+    margin-top: 1%;
 }
 
+.wrapper .kennistoets_antw p{
+    margin: 2%;
+}
+
+/*  hier komt alles te staan over de lab opdrachten*/
 .wrapper .code{
     background-color: white;
     border: 1px solid lightgray;
@@ -161,11 +168,3 @@ html {
     margin-left: 10px;
 }
 
-.wrapper .kennistoets_antw h3{
-    margin-left: 2%;
-    margin-top: 1%;
-}
-
-.wrapper .kennistoets_antw p{
-    margin: 2%;
-}
