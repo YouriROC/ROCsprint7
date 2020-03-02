@@ -139,14 +139,6 @@ html {
     margin-bottom: 20px;
     text-align: left;
 }
-.wrapper .kennistoets_antw h3{
-    margin-left: 2%;
-    margin-top: 1%;
-}
-
-.wrapper .kennistoets_antw p{
-    margin: 2%;
-}
 
 /*  hier komt alles te staan over de lab opdrachten*/
 .wrapper .code{
