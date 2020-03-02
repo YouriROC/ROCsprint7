@@ -26,6 +26,7 @@ html {
     margin-top: 2%;
 }
 
+/*navigatiebar aan de bovenkant komt hieronder te staan*/
 .main_nav{
     overflow: hidden;
     display: block;
@@ -39,10 +40,24 @@ html {
     padding: 10px 20px;
     border-right: 1px solid rgba(0,0,0,0.05);
     border-left: 1px solid rgba(225,225,225,0.05);
+    background: linear-gradient(to right, #F0BAA0 50%, #E19770 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
 }
 
 .main_nav ul li a{
-    color: white;
+    color: #F6D2BF;
+}
+
+.main_nav ul li:hover{
+	background-position: left bottom;
+    transition: all .5s ease-out;
+    border-right: 1px solid rgba(0,0,0,0.05);
+    border-left: 1px solid rgba(225,225,225,0.05);
+}
+
+.main_nav ul li:hover a{
+    color: #fff;
 }
 
 .wrapper{
@@ -51,16 +66,16 @@ html {
     overflow: hidden;
 }
 
+/*vanaf hier komt alles over de sidebar*/
 .sidebar {
 	position: sticky;
 	top: 0;
 }
 
 .wrapper .sidebar{
-    position: fixed;
     display: block;
     width: 200px;
-    height: 100%;
+    height: 100vh;
     background: #F0BAA0;
     padding: 30px 0;
 }
@@ -68,14 +83,89 @@ html {
 .wrapper .sidebar img{
     width: 175px;
     height: 175px;
-    margin-top: 160px;
+    margin-top: 5px;
     margin-left: 12px;
-    position: fixed;
     z-index: 2;
 }
+.wrapper .sidebar h2{
+	margin-top: 40px;
+    color: #E19770;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-.text_overmij{
-    margin-left: 220px;
+.wrapper .sidebar ul{
+    margin-top: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+	background: linear-gradient(to right, #E19770 50%, #F0BAA0 50%);
+	background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+}
+
+.wrapper .sidebar ul li a{
+    color: #F6D2BF;
+    margin-left: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+	background-position: left bottom;
+	transition: all .5s ease-out;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+
+/*hier komt de text te staan over mij :)*/
+.wrapper .text_overmij{
+    margin-left: 40px;
     margin-top: 1.5%;
     width: 80%
+}
+
+/*Hier gaat alles komen te staan over de kennistoetsen*/
+.wrapper .kennistoets_antw{
+    display: block;
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 90%;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapper .code{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.wrapper .uitkomst{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.wrapper .kennistoets_antw h3{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.wrapper .kennistoets_antw p{
+    margin: 2%;
 }
