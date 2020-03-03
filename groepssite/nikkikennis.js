@@ -1,3 +1,4 @@
+
 var vraag1_1 = "Wat is een Call to undefined function-error?";
 var vraag1_2 = "Wat is de phpinfo-function?";
 var vraag1_3 = "Waar kun je de Apache-server fouten traceren?";
