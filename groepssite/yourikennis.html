@@ -22,19 +22,20 @@
 
 <div class="wrapper">
     <div class="sidebar">
-        <img src="groepfotos/youri.jpg" alt="Youri's afbeelding">
+        <img src="groepfotos/youripersonal.jpg" alt="Youri's afbeelding">
         <ul>
-            <li onclick="readTextFile();">Kennistoets 1.01</li>
-            <li>Kennistoets 1.02</li>
-            <li>Kennistoets 1.03</li>
-            <li>Kennistoets 1.04</li>
-            <li>Kennistoets 1.05</li>
-            <li>Kennistoets 1.06</li>
+            <li onclick="kennis1()">Kennistoets 1.02</li>
+            <li onclick="kennis2()">Kennistoets 1.03</li>
+            <li onclick="kennis3()">Kennistoets 1.04</li>
+            <li onclick="kennis4()">Kennistoets 1.05</li>
+            <li onclick="kennis5()">Kennistoets 1.06</li>
         </ul>
     </div>
 
     <div class="kennistoets_antw">
-        <h3>Kennistoets 1.01</h3>
+        <h3 id="titelKennis">Kennistoets 1.01</h3>
+
+        <p id="uitleg"><i>Beantwoord deze vragen.</i></p>
 
         <p id="vraag1"> <strong>Wat is een Call to undefined function-error?</strong></p>
         <p id="antwoord1">Het programma kent de functie niet.</p>

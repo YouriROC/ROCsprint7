@@ -1,101 +1,109 @@
-var vraag1_1 = "Wat is een Call to undefined function-error?";
-var vraag1_2 = "Wat is de phpinfo-function?";
-var vraag1_3 = "Waar kun je de Apache-server fouten traceren?";
-var vraag1_4 = "Wat is de root-map van de Apache-server?";
-var vraag1_5 = "Benoem alle error-logs van XAMPP";
-var vraag1_6 = "Wat is een CMS?";
-var vraag1_7 = "Wat is Joomla?";
-var vraag1_8 = "Wat is Syntaxis?";
-var vraag1_9 = "Wat doet de echo-opdracht?";
-var vraag1_10 = "Waar kunnen we een PHP-script embedden in een HTML-script?";
 
-var vraag2_1 = "$auto2";
-var vraag2_2 = "$auto's";
-var vraag2_3 = "$auto/onderdelen";
-var vraag2_4 = "$thuis&tuin?";
-var vraag2_5 = "$naw";
-var vraag2_6 = "$n-a-w";
-var vraag2_7 = "$n_a_w";
-var vraag2_8 = "$22";
-var vraag2_9 = "$$auto";
-var vraag2_10 = "$autokleur";
-
-var antwoord2_1 = "ja";
-var antwoord2_2 = "nee";
-var antwoord2_3 = "nee";
-var antwoord2_4 = "nee";
-var antwoord2_5 = "ja";
-var antwoord2_6 = "nee";
-var antwoord2_7 = "ja";
-var antwoord2_8 = "ja";
-var antwoord2_9 = "nee";
-var antwoord2_10 = "ja";
-
-var antwoord1_1 = "Het programma kent de functie niet dat aangemaakt is.";
-var antwoord1_2 = "Hier krijg je een site vol met alle ogelijke informatie over PHP.";
-var antwoord1_3 = "In de Logs.";
-var antwoord1_4 = "HTdocs";
-var antwoord1_5 = "Apache, mySQL en PHP";
-var antwoord1_6 = "een Content Manager System";
-var antwoord1_7 = "Een open source CMS";
-var antwoord1_8 = "Niet beantwoord";
-var antwoord1_9 = "Laat tekst zien";
-var antwoord1_10 = "In de head en onderaan de body";
-
-
-function readTextFile()
-{
-    var test = document.getElementById("youritest.txt");
-    document.write(test);
-}
-
+var vragen = ["vraag1", "vraag2", "vraag3","vraag4", "vraag5", "vraag6","vraag7", "vraag8", "vraag9","vraag10"];
+var antwoord = ["antwoord1", "antwoord2", "antwoord3", "antwoord4","antwoord5", "antwoord6","antwoord7", "antwoord8","antwoord9", "antwoord10",];
 
 function kennis1() {
-    document.getElementById("titelKennis").innerHTML = "Kennistoets 1.02"
 
-    document.getElementById("vraag1").innerHTML = "<strong>" + vraag1_1 + "</strong>";
-    document.getElementById("antwoord1").innerHTML = antwoord1_1;
-    document.getElementById("vraag2").innerHTML = "<strong>" + vraag1_2 + "</strong>";
-    document.getElementById("antwoord2").innerHTML = antwoord1_2;
-    document.getElementById("vraag3").innerHTML = "<strong>" + vraag1_3 + "</strong>";
-    document.getElementById("antwoord3").innerHTML = antwoord1_3;
-    document.getElementById("vraag4").innerHTML = "<strong>" + vraag1_4 + "</strong>";
-    document.getElementById("antwoord4").innerHTML = antwoord1_4;
-    document.getElementById("vraag5").innerHTML = "<strong>" + vraag1_5 + "</strong>";
-    document.getElementById("antwoord5").innerHTML = antwoord1_5;
-    document.getElementById("vraag6").innerHTML = "<strong>" + vraag1_6 + "</strong>";
-    document.getElementById("antwoord6").innerHTML = antwoord1_6;
-    document.getElementById("vraag7").innerHTML = "<strong>" + vraag1_7 + "</strong>";
-    document.getElementById("antwoord7").innerHTML = antwoord1_7;
-    document.getElementById("vraag8").innerHTML = "<strong>" + vraag1_8 + "</strong>";
-    document.getElementById("antwoord8").innerHTML = antwoord1_8;
-    document.getElementById("vraag9").innerHTML = "<strong>" + vraag1_9 + "</strong>";
-    document.getElementById("antwoord9").innerHTML = antwoord1_9;
-    document.getElementById("vraag10").innerHTML = "<strong>" + vraag1_10 + "</strong>";
-    document.getElementById("antwoord10").innerHTML = antwoord1_10;
-};
+    var vraag = [ "Wat is een Call to undefined function-error?", "Wat is de phpinfo-function?", "Waar kun je de Apache-server fouten traceren?",
+                    "Wat is de Rootmap van de Apache-Server?",
+                 "Benoem alle error-logs van XAMPP", "Wat is een CMS?","Wat is Joomla?", "Wat is Syntaxis?", "Wat doet de echo-opdracht?", 
+                 "Waar kunnen we een PHP-script embedden in een HTML-script?"];
+    var antwoorden = ["Het programma kent de functie niet.", "Alle info over het programma.", 
+                     "error logs","htdocs.", "php_error.log", "Content Management System", "Een soort opensource CMS.","Goede vraag. Ik heb er geen goed antwoord op.", 
+                     "Print tekst op het scherm.", "<?php ?> onderaan de body of in de head."];
+    
+        document.getElementById("titelKennis").innerHTML = "Kennistoets 1.02";
+
+        document.getElementById("uitleg").innerHTML = "<i>Beantwoord deze vragen.</i>";
+
+        for (let index = 0; index < vragen.length; index++) {
+            document.getElementById(vragen[index]).innerHTML = "<strong>" + vraag[index] + "</strong>";
+            document.getElementById(antwoord[index]).innerHTML = antwoorden[index];
+            
+        };
+       
+    };
 
 function kennis2() {
-    document.getElementById("titelKennis").innerHTML = "Kennistoets 1.03"
 
-    document.getElementById("vraag1").innerHTML = "<strong>" + vraag2_1 + "</strong>";
-    document.getElementById("antwoord1").innerHTML = antwoord2_1;
-    document.getElementById("vraag2").innerHTML = "<strong>" + vraag2_2 + "</strong>";
-    document.getElementById("antwoord2").innerHTML = antwoord2_2;
-    document.getElementById("vraag3").innerHTML = "<strong>" + vraag2_3 + "</strong>";
-    document.getElementById("antwoord3").innerHTML = antwoord2_3;
-    document.getElementById("vraag4").innerHTML = "<strong>" + vraag2_4 + "</strong>";
-    document.getElementById("antwoord4").innerHTML = antwoord2_4;
-    document.getElementById("vraag5").innerHTML = "<strong>" + vraag2_5 + "</strong>";
-    document.getElementById("antwoord5").innerHTML = antwoord2_5;
-    document.getElementById("vraag6").innerHTML = "<strong>" + vraag2_6 + "</strong>";
-    document.getElementById("antwoord6").innerHTML = antwoord2_6;
-    document.getElementById("vraag7").innerHTML = "<strong>" + vraag2_7 + "</strong>";
-    document.getElementById("antwoord7").innerHTML = antwoord2_7;
-    document.getElementById("vraag8").innerHTML = "<strong>" + vraag2_8 + "</strong>";
-    document.getElementById("antwoord8").innerHTML = antwoord2_8;
-    document.getElementById("vraag9").innerHTML = "<strong>" + vraag2_9 + "</strong>";
-    document.getElementById("antwoord9").innerHTML = antwoord2_9;
-    document.getElementById("vraag10").innerHTML = "<strong>" + vraag2_10 + "</strong>";
-    document.getElementById("antwoord10").innerHTML = antwoord2_10;
-}
+var vraag = ["$auto2", "$auto's", "$auto/onderdelen","$thuis&tuin?" ,"$naw", "$n-a-w", "$n_a_w", "$22", "$$auto", "$autokleur" ];
+var antwoorden = ["ja", "nee", "nee", "nee", "ja", "nee", "ja", "nee", "nee", "ja" ];
+
+    document.getElementById("titelKennis").innerHTML = "Kennistoets 1.03";
+
+    document.getElementById("uitleg").innerHTML = "<i>Kunnen deze variabele namen zijn?</i>";
+    for (let index = 0; index < vragen.length; index++) {
+        document.getElementById(vragen[index]).innerHTML = "<strong>" + vraag[index] + "</strong>";
+        document.getElementById(antwoord[index]).innerHTML = antwoorden[index];
+        
+    };
+   
+};
+
+function kennis3() {
+
+    var vraag = ["$type = gettype($tarief)", "$euros = $tarief * $11", "$tarief = round($tarief,2)", "$tarief = round($tarief)", 
+                    "printf(' .br. tarief is: %.2f', tarief) ", "echo 'tarief: $tarief'", "settype(tarief, 'string')"
+                , "$type = gettype($tarief)", "echo $tarief", "echo $tarief"];
+    var antwoorden = ["Int", "233,31", "21,20", "20", "Tarief is: ...", "Tarief: 21,20",
+                "21,20", "int", "21,20", "21,20"];
+    
+        document.getElementById("titelKennis").innerHTML = "Kennistoets 1.04"
+
+        document.getElementById("uitleg").innerHTML = "<i>Als $tarief = 21.21 wat is het resultaat van de codes?</i>";
+    
+        for (let index = 0; index < vragen.length; index++) {
+            document.getElementById(vragen[index]).innerHTML = "<strong>" + vraag[index] + "</strong>";
+            document.getElementById(antwoord[index]).innerHTML = antwoorden[index];
+            
+        };
+       
+};
+
+function kennis4() {
+
+    var vraag = ["Wat doet de methode unset?", "Wat doet de methode print_r?", "Wat doet de methode array_search?", "Wat doet de methode array_push?",
+                "Wat is het verschil tussen array_search en in_array?", "wat doet de methode array_key_exist?",
+                "Welke methode gebruik je om een element op te zoeken?", "Wat doet de methode unset?", 
+                "Welke methode gebruik je om het laatste element te verwijderen?", "Wat doet de methode array_shift?"];
+    var antwoorden = ["Haalt een getal uit een array", "Print een array", "Zoekt naar een bepaalde value in een array",
+                    "Voeg een getal toe aan een array", "Array_search zoekt naar een value in 1 bepaalde array en in_array zoekt naar een array",
+                    "Geeft true als er een bepaalde key in een array zit", "Array_search", "Verwijdert een waarde van een array",
+                    "Array Pop", "Voeg een waarde toe aan een array"];
+    
+        document.getElementById("titelKennis").innerHTML = "Kennistoets 1.05"
+
+        document.getElementById("uitleg").innerHTML = "<i>Beantwoord deze vragen.</i>";
+    
+        for (let index = 0; index < vragen.length; index++) {
+            document.getElementById(vragen[index]).innerHTML = "<strong>" + vraag[index] + "</strong>";
+            document.getElementById(antwoord[index]).innerHTML = antwoorden[index];
+            
+        };
+       
+};
+
+function kennis5() {
+
+    var vraag = ["Wat doet de methode explode?", "Welke methode converteerd een array naar een string?", "Wat is een callback-function?",
+                "Welke methodes maken gebruik van callback-functions?", "Wat is het verschil tussen array_walk en array_walk_recursive?", 
+                "Wat doet de methode array_rand?", "wat doet de methode array_merge?", "Welke methode gebruik je om het aantal woorden in een tekst te tellen?",
+                "Wat is een associatieve array?", "Wat doet de methode array_slice?"];
+    var antwoorden = ["String -> array", "Implode", "Object methodes", "Array_walk_recursive", "Array_walk_recursive geeft meer",
+                    "Pakt een random value van een array", "Voegt 2 arrays bij elkaar toe", "Array.count", "'Woord => woord1, woord2'",
+                    "Verdeelt de array in meerdere delen"];
+    
+        document.getElementById("titelKennis").innerHTML = "Kennistoets 1.06"
+
+        document.getElementById("uitleg").innerHTML = "<i>Beantwoord deze vragen.</i>";
+    
+        for (let index = 0; index < vragen.length; index++) {
+            document.getElementById(vragen[index]).innerHTML = "<strong>" + vraag[index] + "</strong>";
+            document.getElementById(antwoord[index]).innerHTML = antwoorden[index];
+            
+        };
+       
+};
+
+
+    
