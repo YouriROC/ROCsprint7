@@ -1,4 +1,5 @@
 function converting(){
-     var input = getElementById("inputText").value;
-     getElementById("outputText").innerHTML = input;
+     var input = document.getElementById("inputText").value;
+     var output = document.getElementById("outputText").value = input.split("go\n").join("\nGO\n");
 }
+
