@@ -1,0 +1,52 @@
+
+:root {
+    --main-textarea-size: 600px;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100vw;
+    height: 75px;
+    background-color: #ffc266;
+    text-align: center;
+    font-size: 50px;
+}
+.buttonvoorConvert #convert{
+    text-align: center;
+    margin-left: 47.75%;
+    margin-top: 1%;
+}
+.wrapper{
+    margin-top: 1%;
+}
+
+.wrapper #inputText{
+    height: var(--main-textarea-size);
+    width: 45%;
+    background-color: #ffebcc;
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+    resize: none;
+}
+
+.wrapper #outputText{
+    height: var(--main-textarea-size);
+    width: 45%;
+    background-color: #ffebcc;
+    border: 1px solid black;
+    margin-left: 4%;
+    resize: none;
+}

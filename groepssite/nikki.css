@@ -153,6 +153,26 @@ html {
     margin-left: 40px;
 }
 
+.wrapper .code h1{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+.wrapper .uitkomst h1{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+.wrapper .code code{
+    margin: 5px;
+}
+
+.wrapper .uitkomst p{
+    margin: 5px;
+}
+
 .wrapper .uitkomst{
     background-color: white;
     border: 1px solid lightgray;
@@ -174,4 +194,8 @@ html {
 
 #uitleg{
     margin-bottom: 1%;
+}
+
+.wrapper #titel h3{
+    text-align: center;
 }
