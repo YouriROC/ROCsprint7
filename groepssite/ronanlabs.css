@@ -130,21 +130,5 @@ html {
     color: #fff;
 }
 
-.wrapper .code{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    float: left;
-    width: 40%;
-    margin-top: 50px;
-    margin-left: 40px;
-}
 
-.wrapper .answer{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    width: 40%;
-    margin-top: 50px;
-    margin-left: 10px;
-}
+
