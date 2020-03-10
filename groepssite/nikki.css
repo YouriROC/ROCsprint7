@@ -165,7 +165,7 @@ html {
     font-size: 20px;
 }
 
-.wrapper .code code{
+.wrapper .code textarea{
     margin: 5px;
 }
 
