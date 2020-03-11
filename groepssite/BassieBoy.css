@@ -87,7 +87,7 @@ html {
     margin-top: 5px;
     margin-left: 12px;
     z-index: 2;
-    border: 2px solid #65B9B9;
+    border: 2px solid rgb(255, 0, 0);
 }
 .wrapper .sidebar h2{
 	margin-top: 40px;
@@ -107,7 +107,7 @@ html {
 	background: linear-gradient(to right, white 50%, #EBF1F1 50%);
 	background-size: 200% 100%;
     background-position: right bottom;
-    color: #65B9B9;
+    color: rgb(255, 0, 0);
 }
 
 .wrapper .sidebar ul li a{
