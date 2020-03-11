@@ -14,13 +14,13 @@
 #mainBar {
     width: 100vw;
     height: 10%;
-    background-color: #B27563;
+    background-color: #585158;
     position: relative;
     text-align: center;
     font-size: 50px;
     font-family: Candara;
     color: #FFFFFF;
-	z-index: 2;
+    z-index: 2;
 }
 #mainbar h1{
     margin-top: 2%;
@@ -42,13 +42,13 @@
     display: block;
     width: 200px;
     height: 100%;
-    background: #E19770;
+    background: #B3B3B3;
     padding: 30px 0;
 }
 
 .wrapper .sidebar h2{
 	margin-top: 40px;
-    color: #E19770;
+    color: #B3B3B3;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -57,13 +57,13 @@
     padding: 10px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(225,225,225,0.05);
-	background: linear-gradient(to right, #F0BAA0 50%, #E19770 50%);
+	background: linear-gradient(to right, #DBDBDB 50%, #B3B3B3 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
 
 .wrapper .sidebar ul li a{
-    color: #F6D2BF;
+    color: #DBDBDB;
     margin-left: 15px;
 }
 
@@ -83,9 +83,10 @@
     width: 83%;
     margin-left: 16%;
     margin-top: 2%;
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     overflow: hidden;
     float: left;
+    border: 2px solid #B3B3B3;
 }
 .teambar #individual{
     content: "";
@@ -94,7 +95,7 @@
   }
 
 .teambar #individual #cedricpic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/cedric.jpg);
@@ -107,7 +108,7 @@
 }
 
 .teambar #individual #baspic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/bas.jpg);
@@ -122,7 +123,7 @@
 }
 
 .teambar #individual #ronanpic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/ronan.jpg);
@@ -137,7 +138,7 @@
 }
 
 .teambar #individual #youripic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/youri.jpg);
@@ -152,7 +153,7 @@
 }
 
 .teambar #individual #nikkipic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/nikki.jpg);
@@ -167,7 +168,7 @@
 }
 
 .teambar #individual #robertpic{
-    background-color: #F0BAA0;
+    background-color: #DBDBDB;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/robert2.jpg);
@@ -191,7 +192,7 @@
     background-size: 600px;
     float: right;
     margin-right: 1%;
-    border: 5px solid #B27563;
+    border: 5px solid #B3B3B3;
 }
 
 .wrapper2 .text_over_ons{
@@ -206,42 +207,42 @@
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 #individual #baspic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 #individual #ronanpic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 #individual #youripic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 #individual #nikkipic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 #individual #robertpic:hover 
 {
     filter: contrast(0.9);
     transition: ease 0.5s;
     transform: scale(1.1);
-    border:  #B27563 2px solid;
+    border:  #B3B3B3 2px solid;
 }
 
 html {
