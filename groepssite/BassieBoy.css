@@ -131,6 +131,12 @@ html {
     width: 80%
 }
 
+.wrapper .text_labs {
+    margin-left: 40 px;
+    margin-top: 1,5%;
+    width: 80%
+}
+
 /*Hier gaat alles komen te staan over de kennistoetsen*/
 .wrapper .kennistoets_antw{
     display: block;
@@ -143,23 +149,10 @@ html {
 }
 
 /*  hier komt alles te staan over de lab opdrachten*/
-.wrapper .code{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    float: left;
-    width: 40%;
-    margin-top: 50px;
+.wrapper .text_overmij{
     margin-left: 40px;
-}
-
-.wrapper .uitkomst{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    width: 40%;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 1.5%;
+    width: 80%
 }
 
 .wrapper .kennistoets_antw h3{
