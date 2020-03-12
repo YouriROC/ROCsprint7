@@ -14,7 +14,7 @@
 #mainBar {
     width: 100vw;
     height: 10%;
-    background-color: #585158;
+    background-color: #232C5D;
     position: relative;
     text-align: center;
     font-size: 50px;
@@ -42,13 +42,13 @@
     display: block;
     width: 200px;
     height: 100%;
-    background: #B3B3B3;
+    background: #C2C6D8;
     padding: 30px 0;
 }
 
 .wrapper .sidebar h2{
 	margin-top: 40px;
-    color: #B3B3B3;
+    color: #C2C6D8;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -57,13 +57,13 @@
     padding: 10px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(225,225,225,0.05);
-	background: linear-gradient(to right, #DBDBDB 50%, #B3B3B3 50%);
+	background: linear-gradient(to right, #C9CFE7 50%, #C2C6D8 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
 
 .wrapper .sidebar ul li a{
-    color: #DBDBDB;
+    color: #232C5D;
     margin-left: 15px;
 }
 
@@ -83,7 +83,7 @@
     width: 83%;
     margin-left: 16%;
     margin-top: 2%;
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     overflow: hidden;
     float: left;
     border: 2px solid #B3B3B3;
@@ -95,7 +95,7 @@
   }
 
 .teambar #individual #cedricpic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/cedric.jpg);
@@ -108,7 +108,7 @@
 }
 
 .teambar #individual #baspic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/bas.jpg);
@@ -123,7 +123,7 @@
 }
 
 .teambar #individual #ronanpic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/ronan.jpg);
@@ -138,7 +138,7 @@
 }
 
 .teambar #individual #youripic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/youri.jpg);
@@ -153,7 +153,7 @@
 }
 
 .teambar #individual #nikkipic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/nikki.jpg);
@@ -168,7 +168,7 @@
 }
 
 .teambar #individual #robertpic{
-    background-color: #DBDBDB;
+    background-color: #E1E6FF;
     height: var(--main-picture-size);
     width: var(--main-picture-size);
     background-image: url(groepfotos/robert2.jpg);
