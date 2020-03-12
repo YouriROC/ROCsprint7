@@ -11,11 +11,11 @@ html {
     overflow-x: hidden;
 }
 
-/*alles over de mainbar staat hieronder*/
+/* Mainbar */
 #mainBar {
     width: 100vw;
     height: 10%;
-    background-color: #499090;
+    background-color: #558bd1;
     position: relative;
     text-align: center;
     font-size: 50px;
@@ -26,11 +26,11 @@ html {
     margin-top: 2%;
 }
 
-/*navigatiebar aan de bovenkant komt hieronder te staan*/
+/* Navigatiebar */
 .main_nav{
     overflow: hidden;
     display: block;
-    background-color: #85CDCD;
+    background-color: #6e92c2;
     width: 100vw;
     position: relative;
     z-index: 2;
@@ -40,7 +40,7 @@ html {
     padding: 10px 20px;
     border-right: 1px solid rgba(0,0,0,0.05);
     border-left: 1px solid rgba(225,225,225,0.05);
-    background: linear-gradient(to right, #BCD9D9 50%, #85CDCD 50%);
+    background: linear-gradient(to right, #acc0da 50%, #6e92c2 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
@@ -66,7 +66,7 @@ html {
     overflow: hidden;
 }
 
-/*vanaf hier komt alles over de sidebar*/
+/* Sidebar */
 .sidebar {
 	position: sticky;
     top: 0;
@@ -87,7 +87,7 @@ html {
     margin-top: 5px;
     margin-left: 12px;
     z-index: 2;
-    border: 2px solid #65B9B9;
+    border: 2px solid #6e92c2;
 }
 .wrapper .sidebar h2{
 	margin-top: 40px;
@@ -107,7 +107,7 @@ html {
 	background: linear-gradient(to right, white 50%, #EBF1F1 50%);
 	background-size: 200% 100%;
     background-position: right bottom;
-    color: #65B9B9;
+    color: #6e92c2;s
 }
 
 .wrapper .sidebar ul li a{
@@ -124,14 +124,14 @@ html {
 }
 
 
-/*hier komt de text te staan over mij :)*/
+/* Over mij */
 .wrapper .text_overmij{
     margin-left: 40px;
     margin-top: 1.5%;
     width: 80%
 }
 
-/*Hier gaat alles komen te staan over de kennistoetsen*/
+/* Kennistoetsen */
 .wrapper .kennistoets_antw{
     display: block;
     height: 90%;
@@ -140,6 +140,26 @@ html {
     margin-top: 25px;
     margin-bottom: 20px;
     text-align: left;
+}
+
+/* Labs opdrachten */
+.wrapper .code{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.wrapper .uitkomst{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 475px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .wrapper .kennistoets_antw h3{
@@ -154,21 +174,4 @@ html {
 
 #uitleg{
     margin-bottom: 1%;
-}
-
-.wrapper #titel h3{
-    text-align: center;
-}
-
-.wrapper .tekstenbutton .labbutton{
-    height: 75px;
-    width: 150px;
-    margin-left: 10px;
-    margin-top: 5%;
-    background-color: #EBF1F1;
-    border-color: grey;
-}
-.wrapper .tekstenbutton{
-    margin-left: 10px;
-    margin-top: 10px;
 }
