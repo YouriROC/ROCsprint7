@@ -143,23 +143,17 @@ html {
     margin-bottom: 20px;
 }
 
-.wrapper .code{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    float: left;
-    width: 40%;
-    margin-top: 50px;
-    margin-left: 40px;
-}
-
-.wrapper .uitkomst{
-    background-color: white;
-    border: 1px solid lightgray;
-    height: 475px;
-    width: 40%;
-    margin-top: 50px;
+.wrapper .tekstenbutton .labbutton{
+    height: 75px;
+    width: 150px;
     margin-left: 10px;
+    margin-top: 5%;
+    background-color: #dbffe5;
+    border-color: grey;
+}
+.wrapper .tekstenbutton{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .wrapper .kennistoets_antw p{

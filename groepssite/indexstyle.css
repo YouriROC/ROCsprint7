@@ -97,7 +97,7 @@
 .teambar #individual #cedricpic{
     background-color: #E1E6FF;
     height: var(--main-picture-size);
-    width: var(--main-picture-size);
+    width:  var(--main-picture-size);
     background-image: url(groepfotos/cedric.jpg);
     background-size: var(--main-picture-size);
     float:left;
