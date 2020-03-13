@@ -173,3 +173,7 @@ html {
     margin-left: 10px;
     margin-top: 10px;
 }
+button {
+    font-family : sans-serif;
+    font-size: 1em;
+}

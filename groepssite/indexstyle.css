@@ -10,6 +10,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: sans-serif;
 }
 #mainBar {
     width: 100vw;
@@ -80,8 +81,8 @@
     padding: 10px;
     background-color: grey;
     height: 273px;
-    width: 83%;
-    margin-left: 16%;
+    width: 1260px;
+    margin-left: 250px;
     margin-top: 2%;
     background-color: #E1E6FF;
     overflow: hidden;
@@ -198,8 +199,9 @@
 .wrapper2 .text_over_ons{
     width: 40%;
     margin-top: 2%;
-    margin-left: 240px;
+    margin-left: 250px;
     float: left;
+    margin-bottom: 10px;
 }
 
 #individual #cedricpic:hover 
