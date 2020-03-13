@@ -167,8 +167,13 @@ html {
     margin-top: 5%;
     background-color: #EBF1F1;
     border-color: grey;
+    font-family: sans-serif;
 }
 .wrapper .tekstenbutton{
     margin-left: 10px;
     margin-top: 10px;
+}
+button {
+    font-family : sans-serif;
+    font-size: 1em;
 }
