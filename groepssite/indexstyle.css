@@ -106,6 +106,7 @@
 .teambar #individual #cedricpic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .teambar #individual #baspic{
@@ -121,6 +122,7 @@
 .teambar #individual #baspic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .teambar #individual #ronanpic{
@@ -136,6 +138,7 @@
 .teambar #individual #ronanpic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .teambar #individual #youripic{
@@ -151,6 +154,7 @@
 .teambar #individual #youripic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .teambar #individual #nikkipic{
@@ -166,6 +170,7 @@
 .teambar #individual #nikkipic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .teambar #individual #robertpic{
@@ -181,6 +186,7 @@
 .teambar #individual #robertpic h2{
     text-align: center;
     margin-top: var(--names-under-pic);
+    font-size: 20px;
 }
 
 .wrapper2 .groepsafbeelding{
